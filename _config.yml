@@ -4,7 +4,7 @@ author: CharlesLedger
 description: > # Meta description of Homepage
    The whispers from the Engineering of Ledger. The latest news about technology and engineering at Ledger.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://ledgerhq.github.io/ledger-engineering.github.io/"
+url: "https://ledgerhq.github.io/"
 
 # SEO PLUGIN
 social:

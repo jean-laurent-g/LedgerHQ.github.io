@@ -7,7 +7,10 @@ permalink: /about/
 This is the Ledger technology blog.
 
 
-Ledger also believes in open-source. We open-source as much software/hardware as possible. 
-[GitHub Ledger](https://github.com/ledgerhq)
-Pull requests are welcome.
+Ledger believes in security and transparency.
+Most of our software and hardware development are open source.
+
+Have a look to our [GitHub](https://github.com/ledgerhq)
+
+Pull requests are welcome :)
 

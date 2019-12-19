@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Is MPC truly ready for digital asset custody
+title: Is MPC truly ready for digital asset custody?
 author: Vincent Debast and Charles Guillemet
-summary: Is MPC truly ready for digital assets custody
+summary: Is MPC truly ready for digital assets custody?
 featured-img: mpc
 categories: Vault
 ---
@@ -17,15 +17,14 @@ Securing critical digital assets is the mission of Ledger and we have been obser
 
 Unlike traditional financial assets, critical digital assets such as cryptocurrencies bear high operational risks. These relate to key management, irreversible transactions and the open network. Cryptocurrencies empower users giving them control over assets and thereby granting them complete responsibility over them. Because a security breach can result in an instantaneous and irrevocable loss of funds, the security of keys both at rest and in usage is paramount.
   
--   Securing at rest means safeguarding the generation and storage of keys.
-    
--   Securing the usage includes not only transaction signatures but also user management, wallet management, enforcement of governance rules and transaction verification.
+* Securing at rest means safeguarding the generation and storage of keys.   
+* Securing the usage includes not only transaction signatures but also user management, wallet management, enforcement of governance rules and transaction verification.
     
 
 <center>
-<img src="/assets/mpc/approval_flows.png" style="width:300px;">
+<img src="/assets/mpc/key_mgmt_lifecycle.png" style="width:200px;">
 </center>  
-
+ 
 
 Securing the full key management lifecycle is not easy and MPC is the latest addition to the security toolbox that institutions and investors have to protect their digital assets.
 
@@ -38,7 +37,6 @@ Multi-party computation refers to specific cryptography algorithms enabling mult
   
 Applying this property to secure digital assets, MPC can be used to create signatures split over several users, where the signature process does not require signers to disclose their key others. The benefits are straightforward: without the possibility to compromise a single endpoint, an attacker would need to target several instances, coordinating many attacks together. Because instances have different security setup, this significantly increases the difficulty of the potential attack.
 
-  
 
 When applying MPC, the first step is the wallet creation. Each user generates a part of the key with which transactions are signed from a wallet. At no stage is the key generated in full. This is done by implementing an MPC-version of the key derivation algorithms for cryptocurrencies (BIP-32).
 
@@ -46,11 +44,9 @@ When applying MPC, the first step is the wallet creation. Each user generates a 
 
 Once the wallet is created, MPC is applied to transaction signatures. One category of MPC algorithms is called Threshold Signature Schemes[2][2] (TSS). It allows a group of n signers to define a set of m required approvals. The transaction signature process does not require - nor allow - any single approver to assemble or have the full key at any stage. Most MPC-based solutions currently available on the market implement TSS.
 
-  
 <center>
-<img src="/assets/MPC_readiness/approval_flows.png" style="width:200px;">
+<img src="/assets/mpc/approval_flows.png" style="width:300px;">
 </center>  
- 
 
 In the above example, the transaction is not complete until all the approvers have computed their part of the transaction. It is noted that some MPC schemes do not require approvals to be sequential. With those schemes, Alice, Bob and Charlie can sign the data in any order. The three approvers can also use different devices, such as a smartphone, a laptop or a regular computer.
 

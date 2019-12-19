@@ -4,7 +4,7 @@ author: CharlesLedger
 description: > # Meta description of Homepage
    The latest news about technology and engineering at Ledger.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://tech.ledger.com/"
+url: "https://tech.ledger.com"
 
 # SEO PLUGIN
 social:
@@ -15,8 +15,8 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Tech', link: '/'}
-  - {name: 'Security', link: 'https://donjon.ledger.com/'}
+  - {name: 'Engineering', link: '/'}
+  - {name: 'Financial Services', link: '/vault/'}
   - {name: 'About', link: '/about'}
 
 tagline: >

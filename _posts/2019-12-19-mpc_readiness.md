@@ -22,13 +22,12 @@ Unlike traditional financial assets, critical digital assets such as cryptocurre
     
 
 <center>
-<img src="/assets/mpc/key_mgmt_lifecycle.png" style="width:200px;">
+<img src="/assets/mpc/key_mgmt_lifecycle.png" style="width:400px;">
 </center>  
+_<center>Key Management Life cycle</center>_
  
 
 Securing the full key management lifecycle is not easy and MPC is the latest addition to the security toolbox that institutions and investors have to protect their digital assets.
-
-  
 
 ## What is MPC?
 
@@ -45,12 +44,12 @@ When applying MPC, the first step is the wallet creation. Each user generates a 
 Once the wallet is created, MPC is applied to transaction signatures. One category of MPC algorithms is called Threshold Signature Schemes[2][2] (TSS). It allows a group of n signers to define a set of m required approvals. The transaction signature process does not require - nor allow - any single approver to assemble or have the full key at any stage. Most MPC-based solutions currently available on the market implement TSS.
 
 <center>
-<img src="/assets/mpc/approval_flows.png" style="width:300px;">
+<img src="/assets/mpc/approval_flows.png" style="width:400px;">
 </center>  
+_<center>Transaction approval flow</center>_
 
 In the above example, the transaction is not complete until all the approvers have computed their part of the transaction. It is noted that some MPC schemes do not require approvals to be sequential. With those schemes, Alice, Bob and Charlie can sign the data in any order. The three approvers can also use different devices, such as a smartphone, a laptop or a regular computer.
 
-  
 
 ## What are the drawbacks of MPC?
 
@@ -58,11 +57,7 @@ In the above example, the transaction is not complete until all the approvers ha
 
 Current MPC schemes are quite new and therefore are still not battle-tested. Seminal papers on the topic date back to the 80s but the first paper outlining a usable case was only published in 2016. Security setups based on MPC have yet to pass extensive penetration testing and security certifications such as Common Criteria, FIPS or CSPN certifications. Also, standardisation initiatives [3][3] are giving security researchers a common ground to assess solutions using MPC but are still not widely accepted.
 
-  
-
 At the 2019 IACR Crypto conference, Jonathan Katz presented a keynote talk where he outlined the vulnerabilities in MPC implementation of fixed-key AES[4][4]. While vulnerability does not mean that MPC is insecure per se, it does raise the question of the security of implementation. As Trail of Bits stated in the talk: “This attack highlights the recklessness of rushing to deploy cutting-edge cryptography. These protocols are often extremely slow and complex, and few people understand the subtle details of the security proof. More work must be done to quantify the concrete security of these protocols as they are actually instantiated, not just asymptotically using idealized functionalities.”[5][5]
-
-  
 
 Because the security issue of digital assets is “get  one error, lose it all,'' introducing new technologies must be done carefully. Implementing unready technology as the backbone of the security infrastructure can have catastrophic consequences as shown by the recently, when Zcash deployed custom zk-SNARK setups [6][6]. The gap between theoretical implementation and actual production requires the highest caution. Even though security proofs provide better guarantees, they can initially pass through peer review where further research will later find they are false, as highlighted recently by Koblitz and Menezes.[7][7]
 
@@ -134,12 +129,8 @@ The implementation of MPC on secure hardware is still lacking, in order to addre
 MPC will be a valuable addition to the arsenal of security solutions with secure hardware and Ledger will continue to investigate integrating MPC to our existing portfolio of security solutions to create a more robust end-to-end security solution to protect critical digital assets.
 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+[Charles Guillemet](https://www.ledger.com/people/charles-guillemet/) — CTO & Vincent Debast — Head of Financial Services Product Management.
 
 #### References
 

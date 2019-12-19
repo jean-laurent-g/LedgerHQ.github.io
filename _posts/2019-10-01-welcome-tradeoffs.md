@@ -62,7 +62,7 @@ Leveraging Ledger’s expertise in embedded security and secure hardware, the Va
 The Vault platform allows the Administrators to set rules that will govern transaction authorization. For each account, a specific workflow can be tailored to achieve a level of governance appropriate for the amounts at stake. 
 
 <center>
-<img src="/assets/welcome/example_rules.png" style="width:500px;">
+<img src="/assets/welcome/examples_rules.png">
 </center>  
 _<center> Some examples of wallet configurations possible on the Ledger Vault.</center>_
 
@@ -101,7 +101,7 @@ Each application on the Vault HSM is written as a script. Vault scripts are inte
 * Currency scripts include the account management and matching modules, which are the sole owners who have access to private keys. Currency scripts issue commands to the matching script to sign transaction data using specific algorithms. The matching script then produces human-readable data for a transaction bound to a validation device.
 
 <center>
-<img src="/assets/welcome/hsm_overview.png" style="width:500px;">
+<img src="/assets/welcome/hsm_overview.png">
 </center>  
 _<center> An overview of the Vault HSM architecture .</center>_
 

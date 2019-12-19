@@ -112,3 +112,6 @@ Thanks to the secure execution framework, the governance set on the account is h
 The Ledger Vault enables institutions to have their funds readily available and highly secure, simultaneously. They  can benefit from instant liquidity management can address new use cases, which require frequent communication with various  blockchains.
 
 We will be happy to share more about our solution for digital asset storage, You can get in touch with our team directly here. You’ll find also find a link [here](https://www.ledger.com/vault/) to our solution overview providing more details about the capabilities of the Vault platform.
+
+
+[Vincent Debast](https://www.linkedin.com/in/vincentdebast/) — Head of Financial Services Product Management.

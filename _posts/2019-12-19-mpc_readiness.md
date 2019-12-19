@@ -4,6 +4,7 @@ title: Is MPC truly ready for digital asset custody
 author: Vincent Debast and Charles Guillemet
 summary: Is MPC truly ready for digital assets custody
 featured-img: mpc
+categories: Vault
 ---
 
 # Is MPC truly ready for digital asset custody?

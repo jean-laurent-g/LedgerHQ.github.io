@@ -2,7 +2,7 @@
 layout: post
 title: Is MPC truly ready for digital asset custody?
 author: Vincent Debast and Charles Guillemet
-summary: Is MPC truly ready for digital assets custody?
+summary: Ledger's take on the current state of MPC and the way forward. 
 featured-img: mpc
 categories: Vault
 ---
@@ -22,7 +22,7 @@ Unlike traditional financial assets, critical digital assets such as cryptocurre
     
 
 <center>
-<img src="/assets/mpc/key_mgmt_lifecycle.png" style="width:400px;">
+<img src="/assets/mpc/key_mgmt_lifecycle.png" style="width:500px;">
 </center>  
 _<center>Key Management Life cycle</center>_
  
@@ -44,7 +44,7 @@ When applying MPC, the first step is the wallet creation. Each user generates a 
 Once the wallet is created, MPC is applied to transaction signatures. One category of MPC algorithms is called Threshold Signature Schemes[2][2] (TSS). It allows a group of n signers to define a set of m required approvals. The transaction signature process does not require - nor allow - any single approver to assemble or have the full key at any stage. Most MPC-based solutions currently available on the market implement TSS.
 
 <center>
-<img src="/assets/mpc/approval_flows.png" style="width:400px;">
+<img src="/assets/mpc/approval_flows.png" style="width:500px;">
 </center>  
 _<center>Transaction approval flow</center>_
 
@@ -130,7 +130,10 @@ MPC will be a valuable addition to the arsenal of security solutions with secure
 
 <br/>
 
-[Charles Guillemet](https://www.ledger.com/people/charles-guillemet/) — CTO & Vincent Debast — Head of Financial Services Product Management.
+[Charles Guillemet](https://www.ledger.com/people/charles-guillemet/) — CTO <br/>
+&
+<br/>
+[Vincent Debast](https://www.linkedin.com/in/vincentdebast/) — Head of Financial Services Product Management.
 
 #### References
 

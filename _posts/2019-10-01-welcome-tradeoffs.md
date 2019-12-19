@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to Digital Asset Custody - a city of trade-offs
 author: Vincent Debast
-summary: this is a summary
+summary: How can Ledger help financial institutions to secure critical digital assets?
 featured-img: welcomevault
 categories: Vault
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sigzz
+permalink: /signature/
 ---
 
 <table class="sc-jDwBTQ dWtMUn" style="font-size: medium; font-family: Verdana;" cellspacing="0" cellpadding="0">

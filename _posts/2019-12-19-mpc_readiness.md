@@ -31,7 +31,7 @@ Securing the full key management lifecycle is not easy and MPC is the latest add
 
 ## What is MPC?
 
-Multi-party computation refers to specific cryptography algorithms enabling multiple parties to jointly compute a function over their inputs while keeping those inputs private. For example, it is possible to compute the average employee salary without individual employees knowing the salary of others [1][1].
+Multi-party computation refers to specific cryptography algorithms enabling multiple parties to jointly compute a function over their inputs while keeping those inputs private. For example, it is possible to compute the average employee salary without individual employees knowing the salary of others (cf. [Inpher Intro](#1)).
 
   
 Applying this property to secure digital assets, MPC can be used to create signatures split over several users, where the signature process does not require signers to disclose their key others. The benefits are straightforward: without the possibility to compromise a single endpoint, an attacker would need to target several instances, coordinating many attacks together. Because instances have different security setup, this significantly increases the difficulty of the potential attack.
@@ -41,7 +41,7 @@ When applying MPC, the first step is the wallet creation. Each user generates a 
 
   
 
-Once the wallet is created, MPC is applied to transaction signatures. One category of MPC algorithms is called Threshold Signature Schemes[2][2] (TSS). It allows a group of n signers to define a set of m required approvals. The transaction signature process does not require - nor allow - any single approver to assemble or have the full key at any stage. Most MPC-based solutions currently available on the market implement TSS.
+Once the wallet is created, MPC is applied to transaction signatures. One category of MPC algorithms is called [Threshold Signature Schemes](#2) (TSS). It allows a group of n signers to define a set of m required approvals. The transaction signature process does not require - nor allow - any single approver to assemble or have the full key at any stage. Most MPC-based solutions currently available on the market implement TSS.
 
 <center>
 <img src="/assets/mpc/approval_flows.png" style="width:500px;">
@@ -55,11 +55,11 @@ In the above example, the transaction is not complete until all the approvers ha
 
 #### MPC still is a very recent technology and has very little security testing
 
-Current MPC schemes are quite new and therefore are still not battle-tested. Seminal papers on the topic date back to the 80s but the first paper outlining a usable case was only published in 2016. Security setups based on MPC have yet to pass extensive penetration testing and security certifications such as Common Criteria, FIPS or CSPN certifications. Also, standardisation initiatives [3][3] are giving security researchers a common ground to assess solutions using MPC but are still not widely accepted.
+Current MPC schemes are quite new and therefore are still not battle-tested. Seminal papers on the topic date back to the 80s but the first paper outlining a usable case was only published in 2016. Security setups based on MPC have yet to pass extensive penetration testing and security certifications such as Common Criteria, FIPS or CSPN certifications. Also, [standardisation initiatives](#3) are giving security researchers a common ground to assess solutions using MPC but are still not widely accepted.
 
-At the 2019 IACR Crypto conference, Jonathan Katz presented a keynote talk where he outlined the vulnerabilities in MPC implementation of fixed-key AES[4][4]. While vulnerability does not mean that MPC is insecure per se, it does raise the question of the security of implementation. As Trail of Bits stated in the talk: “This attack highlights the recklessness of rushing to deploy cutting-edge cryptography. These protocols are often extremely slow and complex, and few people understand the subtle details of the security proof. More work must be done to quantify the concrete security of these protocols as they are actually instantiated, not just asymptotically using idealized functionalities.”[5][5]
+At the 2019 IACR Crypto conference, Jonathan Katz presented a keynote talk where he outlined the [vulnerabilities in MPC implementation of fixed-key AES](#4). While vulnerability does not mean that MPC is insecure per se, it does raise the question of the security of implementation. As Trail of Bits stated in the talk: “This attack highlights the recklessness of rushing to deploy cutting-edge cryptography. These protocols are often extremely slow and complex, and few people understand the subtle details of the security proof. More work must be done to quantify the concrete security of these protocols as they are actually instantiated, not just asymptotically using idealized functionalities.” (cf. [Trail of bits blogpost](#5))
 
-Because the security issue of digital assets is “get  one error, lose it all,'' introducing new technologies must be done carefully. Implementing unready technology as the backbone of the security infrastructure can have catastrophic consequences as shown by the recently, when Zcash deployed custom zk-SNARK setups [6][6]. The gap between theoretical implementation and actual production requires the highest caution. Even though security proofs provide better guarantees, they can initially pass through peer review where further research will later find they are false, as highlighted recently by Koblitz and Menezes.[7][7]
+Because the security issue of digital assets is “get  one error, lose it all,'' introducing new technologies must be done carefully. Implementing unready technology as the backbone of the security infrastructure can have catastrophic consequences as shown by the recently, when [Zcash deployed custom zk-SNARK setups](#6). The gap between theoretical implementation and actual production requires the highest caution. Even though security proofs provide better guarantees, they can initially pass through peer review where further research will later find they are false, as [highlighted recently by Koblitz and Menezes](#7).
 
   
 
@@ -69,7 +69,7 @@ We believe that the security of MPC-only systems are not mature enough to be dep
 
   
 
-The main technical limitation of MPC lies in the exponential complexity of existing algorithms. The more complex the calculation, the longer it will take to compute. Even a simple “m of n” quorum becomes practically impossible to implement as the number of signers increases. More so if computation is already intensive without MPC. Recent papers on the topic have improved performance but research is still very recent and has yet to be tested thoroughly. Improvements applied to transaction signature started around 2016. [8][8]
+The main technical limitation of MPC lies in the exponential complexity of existing algorithms. The more complex the calculation, the longer it will take to compute. Even a simple “m of n” quorum becomes practically impossible to implement as the number of signers increases. More so if computation is already intensive without MPC. Recent papers on the topic have improved performance but research is still very recent and has yet to be tested thoroughly. [Improvements applied to transaction signature](#8) started around 2016.
 
   
 
@@ -114,7 +114,7 @@ Solutions can be imagined where the drawbacks of MPC are addressed through addit
 
   
 
-At Ledger, we are convinced that the key generation process must always be performed on secure hardware otherwise the entropy of the keys will be too low and therefore subject to attacks. To ensure keys are securely generated, certified secure hardware using true random number generators is still the best solution. Keys must also be stored on secure hardware: the interest of MPC lies in distributing the keys over several endpoints which distributes risks. However attacking several unsecured endpoints synchronously is possible, as recent hacks have proved.[9][9]
+At Ledger, we are convinced that the key generation process must always be performed on secure hardware otherwise the entropy of the keys will be too low and therefore subject to attacks. To ensure keys are securely generated, certified secure hardware using true random number generators is still the best solution. Keys must also be stored on secure hardware: the interest of MPC lies in distributing the keys over several endpoints which distributes risks. However attacking several unsecured endpoints synchronously is possible, as [recent hacks have proved](#9).
 
   
 
@@ -137,23 +137,12 @@ MPC will be a valuable addition to the arsenal of security solutions with secure
 
 #### References
 
-1: https://www.inpher.io/technology/what-is-secure-multiparty-computation  
-2: https://www.binance.vision/security/threshold-signatures-explained  
-3: https://csrc.nist.gov/Projects/Threshold-Cryptography  
-4: https://eprint.iacr.org/2019/074.pdf  
-5: https://blog.trailofbits.com/2019/09/11/crypto-2019-takeaways/  
-6: https://electriccoin.co/blog/zcash-counterfeiting-vulnerability-successfully-remediated/#counterfeiting-vulnerability-details  
-7: https://eprint.iacr.org/2019/1336  
-8: https://eprint.iacr.org/2016/013  
-9: https://www.wired.com/story/ios-attack-watering-hole-project-zero/  
-
-
-[1]:https://www.inpher.io/technology/what-is-secure-multiparty-computation
-[2]:https://www.binance.vision/security/threshold-signatures-explained
-[3]:https://csrc.nist.gov/Projects/Threshold-Cryptography
-[4]:https://eprint.iacr.org/2019/074.pdf
-[5]:https://blog.trailofbits.com/2019/09/11/crypto-2019-takeaways/
-[6]:https://electriccoin.co/blog/zcash-counterfeiting-vulnerability-successfully-remediated/#counterfeiting-vulnerability-details
-[7]:https://eprint.iacr.org/2019/1336
-[8]:https://eprint.iacr.org/2016/013
-[9]:https://www.wired.com/story/ios-attack-watering-hole-project-zero/
+1. <a name="1"></a> [What is secure Multi-party computation - Inpher](https://www.inpher.io/technology/what-is-secure-multiparty-computation)
+2. <a name="2"></a> [Threshold Signatures Explained - Binance](https://www.binance.vision/security/threshold-signatures-explained)
+3. <a name="3"></a> [Threshold Cryptography - CSRC NIST](https://csrc.nist.gov/Projects/Threshold-Cryptography)
+4. <a name="4"></a> [Efficient and Secure Mulltiparty Computation from Fixed-Key Block Ciphers - Guo et al.](https://eprint.iacr.org/2019/074.pdf)
+5. <a name="5"></a> [Crypto 2019 Takeaways - Trail of Bits](https://blog.trailofbits.com/2019/09/11/crypto-2019-takeaways/)
+6. <a name="6"></a> [ZCash Counterfeiting Vulnerability Successfully Remediated - Ellectriccoin](https://electriccoin.co/blog/zcash-counterfeiting-vulnerability-successfully-remediated/#counterfeiting-vulnerability-details)
+7. <a name="7"></a> [Critical Perspectives on Provable Security: Fifteen Years of "Another Look" Papers - Kobiltz and Menezes](https://eprint.iacr.org/2019/1336)
+8. <a name="8"></a> [Threshold-optimal DSA/ECDSA signatures and an application to Bitcoin wallet security - Gennaro et al.](https://eprint.iacr.org/2016/013)
+9. <a name="9"></a> [Mysterious iOS Attack changes Everything - Wired](https://www.wired.com/story/ios-attack-watering-hole-project-zero/)

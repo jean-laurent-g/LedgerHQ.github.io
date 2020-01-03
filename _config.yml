@@ -16,7 +16,7 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   - {name: 'Engineering', link: '/'}
-  - {name: 'Financial Services', link: '/vault/'}
+  - {name: 'Financial Solutions', link: '/financial-solutions/'}
   - {name: 'About', link: '/about'}
 
 tagline: >

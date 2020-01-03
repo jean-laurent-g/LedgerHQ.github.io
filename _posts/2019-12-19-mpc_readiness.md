@@ -128,12 +128,8 @@ The implementation of MPC on secure hardware is still lacking, in order to addre
 
 MPC will be a valuable addition to the arsenal of security solutions with secure hardware and Ledger will continue to investigate integrating MPC to our existing portfolio of security solutions to create a more robust end-to-end security solution to protect critical digital assets.
 
-<br/>
-
-[Charles Guillemet](https://www.ledger.com/people/charles-guillemet/) — CTO <br/>
-&
-<br/>
-[Vincent Debast](https://www.linkedin.com/in/vincentdebast/) — Head of Financial Services Product Management.
+{% include signatures/charles.html %}
+{% include signatures/vincent.html %}
 
 #### References
 

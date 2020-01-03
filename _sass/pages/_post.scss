@@ -60,3 +60,48 @@
     }
   }
 }
+
+.post-signature {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 0 60px 0;
+}
+
+// handle when there is multiple authors
+.post-signature + .post-signature {
+  padding-top: 0;
+  margin-top: -30px;
+}
+
+.post-signature__prepend {
+  // force width to handle img loading fail or not loaded yet
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.post-signature-prepend__picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.post-signature__body {
+  padding: 10px;
+}
+
+.post-signature-body__title {
+  color: $grey;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.post-signature-body__name {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+.post-signature-body__desc {
+}

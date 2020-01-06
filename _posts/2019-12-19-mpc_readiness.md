@@ -2,7 +2,7 @@
 layout: post
 title: Is MPC truly ready for digital asset custody?
 author: Vincent Debast and Charles Guillemet
-summary: Ledger's take on the current state of MPC and the way forward. 
+summary: Ledger's take on the current state of MPC and the way forward by C. Guillemet and V. Debast 
 featured-img: mpc
 categories: Vault
 ---
@@ -139,6 +139,6 @@ MPC will be a valuable addition to the arsenal of security solutions with secure
 4. <a name="4"></a> [Efficient and Secure Mulltiparty Computation from Fixed-Key Block Ciphers - Guo et al.](https://eprint.iacr.org/2019/074.pdf)
 5. <a name="5"></a> [Crypto 2019 Takeaways - Trail of Bits](https://blog.trailofbits.com/2019/09/11/crypto-2019-takeaways/)
 6. <a name="6"></a> [ZCash Counterfeiting Vulnerability Successfully Remediated - Ellectriccoin](https://electriccoin.co/blog/zcash-counterfeiting-vulnerability-successfully-remediated/#counterfeiting-vulnerability-details)
-7. <a name="7"></a> [Critical Perspectives on Provable Security: Fifteen Years of "Another Look" Papers - Kobiltz and Menezes](https://eprint.iacr.org/2019/1336)
+7. <a name="7"></a> [Critical Perspectives on Provable Security: Fifteen Years of "Another Look" Papers - Koblitz and Menezes](https://eprint.iacr.org/2019/1336)
 8. <a name="8"></a> [Threshold-optimal DSA/ECDSA signatures and an application to Bitcoin wallet security - Gennaro et al.](https://eprint.iacr.org/2016/013)
 9. <a name="9"></a> [Mysterious iOS Attack changes Everything - Wired](https://www.wired.com/story/ios-attack-watering-hole-project-zero/)

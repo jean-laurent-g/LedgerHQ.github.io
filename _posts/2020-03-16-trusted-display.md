@@ -28,7 +28,7 @@ Typically the most trivial attack vector to exploit, spoofing the recipient addr
 
 Alice wants to send some Bitcoin (BTC) to Bob's address and carefully verifies Bob's address before sending her coins. On an *untrusted* display, the attacker (let’s call her Eve) is able to switch the address to which the funds are actually sent, despite displaying the correct address to Alice. As such, while Alice thinks she is sending funds to Bob, the funds are actually sent to the attacker. 
 <center>
-<img src="/assets/trusted_display/recepient_spoofing.png" style="width:500px;">
+<img src="/assets/trusted_display/recipient_spoofing.png" style="width:500px;">
 </center>  
 _<center>The secure element pilots the screen display</center>_
 

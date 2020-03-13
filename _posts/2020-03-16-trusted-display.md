@@ -3,7 +3,7 @@ layout: post
 title: The Importance of the Trusted Display and Secure Execution
 author: Charles Guillemet
 summary: Why Trusted Display is a fundamental building block of cryptocurrency wallets by Charles Guillemet
-featured-img: NanoConfirmation
+featured-img: nano-confirm
 categories: Vault
 ---
 # The Importance of the Trusted Display and Secure Execution

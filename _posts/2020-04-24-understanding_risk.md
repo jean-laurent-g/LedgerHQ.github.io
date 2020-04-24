@@ -57,7 +57,7 @@ For cold storage-based solutions, the master key or individual private keys must
 > **Ledger’s solution:** With the Ledger Vault, day-to-day transaction approvers never handle the key material and the master seed only needs to be used once during the initial Vault set up process by combining three master key shards under secure conditions. Following this, the shards are isolated from one another and don’t need to be accessed for further Vault operations. Thanks to the HSM’s flexible governance rule engine, Vault customers are then able to exert fine control over which users are able to perform sensitive tasks, while ensuring digital assets can be securely managed without ever needing to access or expose the secrets. 
 
 <center>
-<img src="/assets\understanding_risk/schema01.png" style="width:500px;">
+<img src="/assets\understanding_risk/schema01.png" style="width:800px;">
 </center> 
 
 _<center>Secure hardware, secure execution and secure communication</center>_

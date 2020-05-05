@@ -86,6 +86,11 @@ _<center>The secure element pilots the screen display</center>_
 Ledger Vault provides all our customers with personal security devices (PSDs). The PSD is a hardware device which acts as a direct link between the authenticated user and the HSM hosted in a secure datacenter.
 The PSD leverages Ledger’s proprietary trusted display technology, and enables our customers to always verify the authenticity and accuracy of any request or approval prior to signing it. In practice, we call this principle WYSIWYS -- What-You-See-Is-What-You-Sign, as it prevents attacks at the server or host computer level by giving the user a trusted screen in place of a potentially compromised computer.
  
+<center>
+<img src="/assets/trusted_display/transaction_flow.gif">
+</center>  
+_<center>Trusted Display: What you see is what you sign</center>_
+
 Ledger’s PSDs are built around a secure element—a type of tamperproof dedicated circuit that is specifically designed for security. These secure elements are typically found in passports, bank cards and more, and can store a range of information, including biometric information, financial details, and in the case of Ledger’s PSDs—private keys.
 The threat model of secure elements includes even high potential hackers that may have direct access to the chip, with a range of safeguards being included to protect against typical attacks. These circuits go through a third-party security evaluation process, after which they are provided a graded security certificate by a security certification body.
 Secure elements offer a secure execution environment with very few interfaces, ensuring the attack surface is minimized. The manufacturing of these chips is strictly controlled and audited, as is their distribution to hardware manufacturers—preventing supply chain attacks.
@@ -97,10 +102,6 @@ Ledger’s secure element provide several guarantees:
 * Integrity of the apps running on the OS
 * Interaction with a trusted display
 
-<center>
-<img src="/assets/trusted_display/transaction_flow.gif">
-</center>  
-_<center>The secure element pilots the screen display</center>_
 
 
 ## Final Word

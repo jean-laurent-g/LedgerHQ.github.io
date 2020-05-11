@@ -103,7 +103,6 @@ Ledger’s secure element provide several guarantees:
 * Interaction with a trusted display
 
 
-
 ## Final Word
 
 In this article, we have emphasised the importance of a trusted display and discussed how it relies on a secure execution environment to provide the security guarantees necessary to safely manage cryptographic keys.

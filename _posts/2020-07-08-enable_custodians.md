@@ -116,7 +116,6 @@ Customer operator initiates a high value transaction to a new address: Approval 
 <center>
 <img src="/assets/custody/schemavault.png" style="width:500px;">
 </center>  
-_<center>Different workflows can be implemented</center>_
 <br/>  
 
 

@@ -85,7 +85,7 @@ The process custodians use to onboard their customers to the Vault is identical 
 
 **Auditability:** Each PSD is unique and linked to a single user, whereas each action that is signed by each user using their PSD is meticulously logged within the Vault. Thanks to this granular process, administrators can be certain of the origin of each action, ensuring everything can be audited quickly and easily
 
-Onboarding a customer as an operator on the Vault is a one-time process that can easily be carried out remotely:
+Onboarding a customer as an operator on the Vault is a one-time process that can easily be carried out remotely.
 
 **Vault Customer Setup Flow**
 

@@ -9,9 +9,9 @@ categories: Vault
 
 # How Ledger Vault enables custodians to work hand-in-hand with their customers
 
-According to PwC’s [2020 Crypto Hedge Fund Report (1)](#1) the total assets under management (AUM) for crypto hedge funds increased from an average of $21.9 million by 2018 year-end to $44.4 million last year.
+According to PwC’s [2020 Crypto Hedge Fund Report (1)](#1) the total assets under management (AUM) for crypto hedge funds increased from an average of USD 21.9 million by 2018 year-end to USD 44.4 million last year.
 
-Likewise, PwC estimates that the total AUM of all hedge funds more than doubled between this same period, climbing from ~$1 billion in 2018 up to over $2 billion in 2020. 
+Likewise, PwC estimates that the total AUM of all hedge funds more than doubled between this same period, climbing from ~ USD 1 billion in 2018 up to over USD 2 billion in 2020. 
 
 Overall, **cryptocurrency exchanges** are responsible for the safekeeping of a significant chunk of circulating cryptocurrencies, but consumer trust for these platforms continues to deteriorate due to the perceived risk of loss as a result of the numerous [exchange hacks and thefts (2)](#2) that have occurred in recent years.
 

@@ -71,11 +71,11 @@ Asset Managers avoid the operational and regulatory challenges that come with se
 
 Custodians can offer a direct access setup to practically any organization that stands to benefit from highly-scalable custody services, including but not limited to:
 
-**Cryptocurrency exchanges and brokers:** Many cryptocurrency exchanges are faced with overcoming a significant trust divide with users. By working with their custody provider, these platforms can offer the security and speed their customers expect, while eliminating the costs involved in developing or maintaining their own bespoke custody solution.
+* **Cryptocurrency exchanges and brokers:** Many cryptocurrency exchanges are faced with overcoming a significant trust divide with users. By working with their custody provider, these platforms can offer the security and speed their customers expect, while eliminating the costs involved in developing or maintaining their own bespoke custody solution.
 
-**Hedge funds:** Cryptocurrency hedge funds are faced with the challenges of attracting investment, while managing potentially significant sums that need to be accessed regularly by their fund managers. These represent ideal customers for Vault custodians, since Vault offers the flexibility and robust security hedge funds need to attract sizable investors.
+* **Hedge funds:** Cryptocurrency hedge funds are faced with the challenges of attracting investment, while managing potentially significant sums that need to be accessed regularly by their fund managers. These represent ideal customers for Vault custodians, since Vault offers the flexibility and robust security hedge funds need to attract sizable investors.
 
-**Foundations:** Many cryptocurrency companies operate as a foundation, which generally entails a non-profit, ethical business model. Cryptocurrency foundations are usually tasked with developing a blockchain ecosystem and ensuring favorable growth for its users. Foundations set up on the vault with operator accounts can easily demonstrate how they’ve managed their finances, and better focus on growing their community.
+* **Foundations:** Many cryptocurrency companies operate as a foundation, which generally entails a non-profit, ethical business model. Cryptocurrency foundations are usually tasked with developing a blockchain ecosystem and ensuring favorable growth for its users. Foundations set up on the vault with operator accounts can easily demonstrate how they’ve managed their finances, and better focus on growing their community.
 
 ## Custodians Can Onboard Asset Managers Easily
 

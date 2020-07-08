@@ -36,15 +36,18 @@ Unlike clients that interact with their custody solution over a non-secure chann
 <img src="/assets/custody/end_to_end.png" style="width:500px;">
 </center>  
 
+
 **This system allows both the custodian and their customers to interact with the Vault using their PSD**. The PSD offers the strongest authentication mechanism on the market and allows operators to initiate transactions, which are validated using the device’s [trusted display (4)](#4). Ledger remains the only business in the digital asset management space with expertise in secure hardware.
 
 ## Security and Flexibility for Custodian Customers
 
 Although the security and flexibility of Ledger Vault lends it to a wide variety of use cases, the customers most likely to benefit from its features are those that need to securely store, but regularly access or manage a significant portfolio of digital assets. This is particularly the case for firms that need to enforce strict operational controls over these funds.
 
+
 <center>
 <img src="/assets/custody/rules.png" style="width:500px;">
 </center>  
+
 
 **Custodians that provide their customers with direct access to Ledger vault by providing them with operator PSDs essentially enable firms of all types and sizes to benefit from arguably the most feature-complete digital asset custody solution on the market — each custodian customer benefits from their own segregated accounts on the Vault, which can be controlled by any mix of custodian and customer operators.**
 
@@ -54,9 +57,11 @@ Custodian customers avoid the operational and regulatory challenges that come wi
 
 **This ensures custodian customers can focus more on their day-to-day operations and other business practices, while providing their investors and users with the peace of mind that can only be granted by an independent custody solution thanks to minimized counterparty risks. This setup also enables custodian customers to streamline their audit process, since this task can be easily offloaded to the custodian, improving transparency and providing a simple means for customers to prove they are both legitimate and have speedy, secure access to funds.**
 
+
 <center>
 <img src="/assets/custody/compare.png" style="width:500px;">
 </center>  
+
 
 
 Custodians can offer a direct access setup to practically any organization that stands to benefit from highly-scalable custody services, including but not limited to:
@@ -107,10 +112,14 @@ Customer operator initiates a low value transaction to a trusted address from th
 
 Customer operator initiates a high value transaction to a new address: Approval is required from two custodian operators.
 
+
+
 <center>
 <img src="/assets/custody/schemavault.png" style="width:500px;">
 </center>  
 _<center>Different workflows can be implemented</center>_
+
+
 
 See the [Create an account (7)](#7) section of the Ledger Vault Help Center for a more complete overview of the range of parameters that are defined in the transaction rules.
 

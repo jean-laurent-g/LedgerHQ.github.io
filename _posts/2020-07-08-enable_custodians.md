@@ -104,15 +104,10 @@ All-in-all, once the PSD has been delivered to the designated customer, getting 
 
 Once the operators are registered, specific rules can be implemented to minimize the risk of errors and increase security. Two example workflows might look something like this:
 
-**Workflow 1:**
+**Workflow 1:** Customer operator initiates a low value transaction to a trusted address from the whitelist: only one custodian operator is required to review and approve it.
 
-Customer operator initiates a low value transaction to a trusted address from the whitelist: only one custodian operator is required to review and approve it.
-
-**Workflow 2:**
-
-Customer operator initiates a high value transaction to a new address: Approval is required from two custodian operators.
+**Workflow 2:** Customer operator initiates a high value transaction to a new address: Approval is required from two custodian operators.
   
-
 <br/>
 <center>
 <img src="/assets/custody/schemavault.png" style="width:500px;">

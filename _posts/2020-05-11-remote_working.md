@@ -68,7 +68,7 @@ Vault customers are able to onboard through a completely remote process that tak
 As a prerequisite to this process:
 
 - Customers will receive a number of Ledger personal security devices, which can be distributed to individuals in each role type (e.g. shared owner, wrapping key custodian, administrator, and operator). These are secure against supply chain attacks and are checked for both integrity and genuineness before they can be used.
-- Ledger configures a dedicated vault instance on an HSM. <
+- Ledger configures a dedicated vault instance on an HSM. 
   
 
 Once the user institution is ready, it can perform the onboarding ceremony by following the instructions on the web application. Note that each user can be in a different location as the state of the onboarding process is automatically synchronized in the web browser of each user. 
@@ -95,7 +95,7 @@ _<center>Administrators create the accounts and define governance rules. Operato
 
  
 
-This system enables Vault customers to choose;
+This system enables Vault customers to choose:
 
 - Which operators can see and access certain accounts
 - How much can be sent and to which addresses
@@ -140,7 +140,7 @@ As crypto firms begin adapting to the challenges of working remotely, they will 
 
 At Ledger, we believe that digital currencies are best managed with a three-pronged approach that combines best-in-class hardware-based security, a secure communication channel, and a powerful governance system to maximize the security of digital assets, while still providing the flexibility and accessibility needed to support a firm’s operations at scale. 
 
-This approach lends itself perfectly to remote organizations, since firms can benefit from security that rivals offline storage, but without the bottlenecks and risks introduced by physically handling the key material on a regular basis. In fact, Vault customers never need to reconstruct their private keys or master seed as part of their standard operations—practically eliminating the odds of these ever being compromised
+This approach lends itself perfectly to remote organizations, since firms can benefit from security that rivals offline storage, but without the bottlenecks and risks introduced by physically handling the key material on a regular basis. In fact, Vault customers never need to reconstruct their private keys or master seed as part of their standard operations—practically eliminating the odds of these ever being compromised.
 
 ### Final word
 

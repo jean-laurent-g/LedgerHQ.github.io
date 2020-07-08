@@ -27,10 +27,10 @@ Briefly, Ledger Vault is a secure digital asset management solution that allows 
 
 This process is controlled by two main user types:
 
-* Administrators are responsible for creating the governance rules and assigning another type of user known Operators to accounts. 
-* Operators are responsible for creating and approving transactions that adhere to the conditions set out by the administrators. 
+* Administrators are responsible for creating the governance rules and assigning Operators to accounts. 
+* Operators are responsible for creating and approving transactions that adhere to the conditions set out by the Administrators. 
 
-Each account has its own set of governance rules and can only be accessed by the Operators directly assigned to it. The rules can include restricting transfers to only whitelisted addresses, setting a minimum or maximum transfer limit, and enforcing additional controls for high-value transactions.
+Each account has its own set of governance rules set by Administrators and funds can only be accessed by the Operators directly assigned to it. The rules can include restricting transfers to only whitelisted addresses, setting a minimum or maximum transfer limit, and enforcing additional controls for high-value transactions.
 
 The flexibility of this system allows Vault users to create highly secure, scalable transaction flows that can be adapted to practically any business process. **Moreover, although many custodians maintain full control and ownership of their custody solution, custodians using Ledger Vault can securely provide their customers with access to the Vault through the use of its unique PSD-based authentication system.** 
 

@@ -15,7 +15,7 @@ Ledger swap showcases the power of end-to-end security built right into Ledger L
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/1.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -26,7 +26,7 @@ Instead, with a swap you send the crypto asset you wish to exchange in one trans
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/2.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -36,7 +36,7 @@ The general principle is quite simple. There are third parties like Changelly th
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/3.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -44,7 +44,7 @@ To accept the offer, the user has to provide the address where to receive the ET
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/4.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -61,14 +61,14 @@ The main issue when swapping BTC against ETH is that the addresses are fetched b
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/5.png" style="width:500px;">
 </center>  
 <br/>
 Attack scenario where an attacker replaces the ETH address
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/6.png" style="width:500px;">
 </center>  
 <br/>
 Attack scenario where an attacker replaces the BTC address
@@ -85,7 +85,7 @@ The overall mechanism is quite simple and described in the following steps.
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/7.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -93,7 +93,7 @@ The overall mechanism is quite simple and described in the following steps.
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/8.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -102,7 +102,7 @@ The overall mechanism is quite simple and described in the following steps.
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/9.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -122,7 +122,7 @@ The provider sends back this signed payload to Ledger Live which in turn forward
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/10.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -135,7 +135,7 @@ The provider sends back this signed payload to Ledger Live which in turn forward
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/11.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -145,7 +145,7 @@ The provider sends back this signed payload to Ledger Live which in turn forward
 
 <br/>
 <center>
-<img src="" style="width:500px;">
+<img src="/blog_swap/12.png" style="width:500px;">
 </center>  
 <br/>
 
@@ -160,9 +160,3 @@ We’ve shown how to implement end-to-end security on a Swap operation in Ledger
 * In today’s setup, users can only swap crypto if both the sending and receiving accounts are backed up by the same recovery phrase.
 * Now that we’ve achieved this goal, we’ll look into securing decentralized swaps in the future.
 * We hope we can inspire other wallets with our work and together raise the standards for security and ease of use.
-
-<br/>
-<center>
-<img src="" style="width:500px;">
-</center>  
-<br/>

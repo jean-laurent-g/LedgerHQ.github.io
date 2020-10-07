@@ -1,3 +1,12 @@
+---
+layout: post
+title: Raising the bar for security with Ledger Swap 
+author: 
+summary: Enhancing the state of the art security for swap operations with Ledger hardware wallet.
+featured-img:  
+categories: Tech
+---
+
 # Raising the bar for security with Ledger Swap
 
 With Ledger Swap you can exchange coins in Ledger Live, easily and securely. Swapping coins is as easy as sending a transaction. It requires no address verification while enhancing the state of the art security.

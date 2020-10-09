@@ -64,14 +64,14 @@ The main issue when swapping BTC against ETH is that the addresses are fetched b
 <img src="/blog_swap/5.png" style="width:500px;">
 </center>  
 <br/>
-_Attack scenario where an attacker replaces the ETH address_
+<center> _Attack scenario where an attacker replaces the ETH address_ </center>
 
 <br/>
 <center>
 <img src="/blog_swap/6.png" style="width:500px;">
 </center>  
 <br/>
-_Attack scenario where an attacker replaces the BTC address_
+<center>_Attack scenario where an attacker replaces the BTC address_ </center>
 
 As the user’s address is automatically sent to the swap provider by Ledger Live, the user has no means of verifying the address on the hardware wallet. Without countermeasures, the user would have no way of protecting against a malicious address replacement.
 

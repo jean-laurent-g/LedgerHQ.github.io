@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Raising the bar for security with Ledger Swap 
-author: 
+author: Charles Guillemet
 summary: Enhancing the state of the art security for swap operations with Ledger hardware wallet.
-featured-img:  
+featured-img: swap
 categories: Tech
 ---
 

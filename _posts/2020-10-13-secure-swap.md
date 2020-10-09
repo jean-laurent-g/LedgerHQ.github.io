@@ -142,7 +142,7 @@ The provider sends back this `signed payload` to Ledger Live which in turn forwa
 7- Finally, the swap operation can now be executed. The Exchange app calls the Bitcoin app to compute the transaction’s signature, which it returns.
 
 8- Once the swap provider has received the BTC, it will send back the ETH, and all the operation details are then displayed in Ledger Live.
-</ol>
+
 <br/>
 <center>
 <img src="/blog_swap/12.png" style="width:500px;">
